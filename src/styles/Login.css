@@ -1,0 +1,28 @@
+/* Login.css */
+.login-button {
+  background-color: #1E90FF; /* Blue color for login button */
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  margin-top: 20px; /* Space from other content */
+  display: inline-block;
+}
+
+.login-button:hover {
+  background-color: #1C7CD6; /* Darker blue for hover */
+  transform: translateY(-2px); /* Slight raise effect */
+}
+
+.login-button:active {
+  background-color: #155fa0; /* Even darker blue for active state */
+  transform: translateY(0); /* Reset on click */
+}
+
+.login-button:focus {
+  outline: none; /* Remove outline on focus */
+}

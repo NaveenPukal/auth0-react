@@ -1,0 +1,49 @@
+/* LoginPage.css */
+.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height of the viewport */
+    background-color: #f0f0f0; /* Light grey background */
+  }
+  
+  .login-container {
+    background-color: #fff; /* White background for the form container */
+    padding: 40px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Soft shadow around the form */
+    width: 100%;
+    max-width: 400px; /* Set a maximum width for the form */
+  }
+  
+  .login-heading {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px; /* Space below heading */
+  }
+  
+  .login-description {
+    text-align: center;
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 30px; /* Space below description */
+  }
+  
+  
+  
+  @media (max-width: 500px) {
+    .login-container {
+      padding: 30px 20px;
+    }
+  
+    .login-heading {
+      font-size: 20px;
+    }
+  
+    .login-description {
+      font-size: 14px;
+    }
+  }
+  
